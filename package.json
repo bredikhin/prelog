@@ -1,0 +1,31 @@
+{
+  "name": "prelog",
+  "version": "0.0.1",
+  "description": "Prefixing transform stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:bredikhin/prelog.git"
+  },
+  "keywords": [
+    "transform",
+    "stream",
+    "prefix",
+    "log",
+    "logging"
+  ],
+  "author": "Ruslan Bredikhin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredikhin/prelog/issues"
+  },
+  "homepage": "https://github.com/bredikhin/prelog",
+  "devDependencies": {
+    "pre-commit": "0.0.7",
+    "should": "^3.3.1",
+    "mocha": "^1.19.0"
+  }
+}
