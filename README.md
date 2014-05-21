@@ -7,7 +7,7 @@
 
 `npm install --save prelog`
 
-[![NPM](https://nodei.co/npm/zaz.png)](https://nodei.co/npm/prelog/)
+[![NPM](https://nodei.co/npm/prelog.png)](https://nodei.co/npm/prelog/)
 
 ## Usage
 
@@ -16,7 +16,7 @@
   yourReadableStream.pipe(prelog).pipe(process.stdout);
 ```
 
-This will log the data from `yourReadableStream` to `stdout` prefixing each chunk with `'>: '`.
+This will log the data from `yourReadableStream` to `stdout` prefixing each chunk with `'> : '`.
 
 ## Contributions
 
