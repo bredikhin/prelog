@@ -1,6 +1,6 @@
 {
   "name": "prelog",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Prefixing transform stream",
   "main": "index.js",
   "scripts": {
