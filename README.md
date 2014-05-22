@@ -12,7 +12,9 @@
 ## Usage
 
 ```javascript
+  var Prelog = require('prelog');
   var prelog = new Prelog('> : ');
+
   yourReadableStream.pipe(prelog).pipe(process.stdout);
 ```
 
